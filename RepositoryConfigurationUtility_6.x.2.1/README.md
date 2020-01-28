@@ -22,7 +22,7 @@ For a list of changes in each version, see the changelog located under the /engi
 **************************
 1) Information is read from the ConnectionInfo.properties file to find where BA Server or DI Server /pentaho-solutions directory and /tomcat directory are located.
 
-2) In the ConnectionInfo.properties file, you specify what database type you’re using and the credentials for the jackrabbit, hibernate, quartz, and pentaho_operations_mart databases. Only Oracle, MySQL, MSSQL, and PosgreSQL are supported.
+2) In the ConnectionInfo.properties file, you specify what database type youâ€™re using and the credentials for the jackrabbit, hibernate, quartz, and pentaho_operations_mart databases. Only Oracle, MySQL, MSSQL, and PosgreSQL are supported.
 
 3) The utility then figures out all the files it needs to edit and backs them up in the /backups folder before touching anything.
 
