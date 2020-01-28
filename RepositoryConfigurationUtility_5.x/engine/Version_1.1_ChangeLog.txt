@@ -1,0 +1,12 @@
+Version 1.1
+2014-01-08 Christopher Morehouse
+
+* Changed the EOL of the following files to Unix format to prevent the occurance of ^m control characters in Linux systems:
+	ConnectionInfo.properties
+	StartRepositoryConfiguration.sh
+	/engine/set-pentaho-env.sh
+	/engine/kitchen.sh
+	/engine/Tomcat Startup Scripts/startup.sh
+	/engine/launcher/kettle.cfg.xml
+
+* Added README.txt file at the root of installation with instructions on how to run utility.

@@ -1,0 +1,29 @@
+Version 2.1
+2016-02-23 Christopher Morehouse
+* Updated ConfigureRepositoryJob.kjb to not copy updated Tomcat startup files. Disabled hops to steps that copied updated Tomcat startup files. Starting 
+in Pentaho 6.0, CATALINA_OPTS is set in the start-pentaho.bat/sh scripts with a new variable called DI_HOME. Updated tomcat scripts were overwritting the 
+CATALINA_OPTS variable and DI_HOME was not getting set.
+* Deleted engine/Tomcat Startup Scripts folder since this is no longer needed.
+
+
+Version 2.0
+2015-10-22 Christopher Morehouse
+
+* Updated ConnectionInfo.properties to include MSSQL Server repository option and option for cluster node ID.
+* Updated /engine/Tomcat Startup Scripts/startup* files to Tomcat 8 startup scripts.
+* Updated ReadFiles.ktr for MSSQL Server repository support.
+* Updated ChangeFiles.ktr to use updated jackrabbit/repository.xml file. Changes in this file include MSSQL Server support and added Cluster Journal section.
+* Added section for MSSQL Server for the hibernate.cfg.xml file within the ChangeFiles.ktr.
+
+Version 1.1
+2014-01-08 Christopher Morehouse
+
+* Changed the EOL of the following files to Unix format to prevent the occurance of ^m control characters in Linux systems:
+	ConnectionInfo.properties
+	StartRepositoryConfiguration.sh
+	/engine/set-pentaho-env.sh
+	/engine/kitchen.sh
+	/engine/Tomcat Startup Scripts/startup.sh
+	/engine/launcher/kettle.cfg.xml
+
+* Added README.txt file at the root of installation with instructions on how to run utility.

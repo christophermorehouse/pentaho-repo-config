@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?><Context docbase="webapps/pentaho/" path="/pentaho">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="20" maxIdle="5" maxWait="10000" name="jdbc/Hibernate" password="password" type="javax.sql.DataSource" url="jdbc:mysql://r901fvyh:3306/di_hibernate_6_0" username="hibuser" validationQuery="/* ping */ select 1"/>
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="20" maxIdle="5" maxWait="10000" name="jdbc/Audit" password="password" type="javax.sql.DataSource" url="jdbc:mysql://r901fvyh:3306/di_hibernate_6_0" username="hibuser" validationQuery="/* ping */ select 1"/>
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="20" maxIdle="5" maxWait="10000" name="jdbc/Quartz" password="password" type="javax.sql.DataSource" url="jdbc:mysql://r901fvyh:3306/di_quartz_6_0" username="pentaho_user" validationQuery="/* ping */ select 1"/>
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="20" maxIdle="5" maxWait="10000" name="jdbc/pentaho_operations_mart" password="password" type="javax.sql.DataSource" url="jdbc:mysql://r901fvyh:3306/di_pentaho_operations_mart_6_0" username="hibuser" validationQuery="/* ping */ select 1"/>
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="20" maxIdle="5" maxWait="10000" name="jdbc/PDI_Operations_Mart" password="password" type="javax.sql.DataSource" url="jdbc:mysql://r901fvyh:3306/di_pentaho_operations_mart_6_0" username="hibuser" validationQuery="/* ping */ select 1"/>
+  <!--
+  <Resource name="jdbc/Hibernate" auth="Container" type="javax.sql.DataSource"
+            factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="20" maxIdle="5"
+            maxWait="10000" username="hibuser" password="password"
+            driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/di_hibernate"
+            validationQuery="select 1" />
+
+  <Resource name="jdbc/Audit" auth="Container" type="javax.sql.DataSource"
+            factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="20" maxIdle="5"
+            maxWait="10000" username="hibuser" password="password"
+            driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/di_hibernate"
+            validationQuery="select 1" />
+
+  <Resource name="jdbc/Quartz" auth="Container" type="javax.sql.DataSource"
+            factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="20" maxIdle="5"
+            maxWait="10000" username="pentaho_user" password="password"
+            driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/di_quartz"
+            validationQuery="select 1"/>
+  -->
+</Context>

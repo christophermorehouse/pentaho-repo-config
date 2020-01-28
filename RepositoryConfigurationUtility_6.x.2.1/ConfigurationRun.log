@@ -1,0 +1,91 @@
+DEBUG: Using PENTAHO_JAVA_HOME
+DEBUG: _PENTAHO_JAVA_HOME=C:\Program Files\Java\jre1.8.0_101
+DEBUG: _PENTAHO_JAVA=C:\Program Files\Java\jre1.8.0_101\bin\java.exe
+2018/01/02 10:38:36 - Kitchen - Logging is at level : Basic logging
+2018/01/02 10:38:36 - Kitchen - Start of run.
+2018/01/02 10:38:36 - ConfigureRepositoryJob - Start of job execution
+2018/01/02 10:38:36 - ConfigureRepositoryJob - Starting entry [ReadFiles]
+2018/01/02 10:38:36 - ReadFiles - Loading transformation from XML file [file:///C:/Users/cmorehouse/Documents/RepositoryConfigurationProject/RepositoryConfigurationUtility_6.x.2.1/engine/transformations/ReadFiles.ktr]
+2018/01/02 10:38:37 - ReadFiles - Dispatching started for transformation [ReadFiles]
+2018/01/02 10:38:37 - Property Input.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2018/01/02 10:38:37 - Add constants.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
+2018/01/02 10:38:37 - Row denormaliser.0 - Finished processing (I=0, O=0, R=20, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Replace in string.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - String operations.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - CreateFilePaths.0 - Optimization level set to 9.
+2018/01/02 10:38:37 - Set Variables.0 - Setting environment variables...
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_quartzProperties to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/pentaho-solutions/system/quartz/quartz.properties]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_hibernateSettings to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/pentaho-solutions/system/hibernate/hibernate-settings.xml]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_hibernateCfg to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/pentaho-solutions/system/hibernate/postgresql.hibernate.cfg.xml]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_hibernateCfgFile to value [postgresql.hibernate.cfg.xml]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_jackrabbitRepository to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/pentaho-solutions/system/jackrabbit/repository.xml]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_contextFile to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/tomcat/webapps/pentaho/META-INF/context.xml]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_contextCache to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/tomcat/conf/Catalina/localhost/pentaho.xml]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_tomcatStartupWindows to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/tomcat/bin/startup.bat]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_tomcatStartupLinux to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/tomcat/bin/startup.sh]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_jackrabbitCache to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/pentaho-solutions/system/jackrabbit/repository]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_updatedTomcatStartupWindows to value [Tomcat Startup Scripts/startup.bat]
+2018/01/02 10:38:37 - CreateFilePaths.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_updatedTomcatStartupLinux to value [Tomcat Startup Scripts/startup.sh]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_applicationContextSpringSecurityHibernate to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/pentaho-solutions/system/dialects/postgresql/applicationContext-spring-security-hibernate.properties]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_auditSQL to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/pentaho-solutions/system/dialects/postgresql/audit_sql.xml]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_SolutionsDirectory to value [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/pentaho-solutions]
+2018/01/02 10:38:37 - Set Variables.0 - Set variable var_backupFolder to value [ba_server]
+2018/01/02 10:38:37 - Copy rows to result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Set Variables.0 - Finished after 1 rows.
+2018/01/02 10:38:37 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - ConfigureRepositoryJob - Starting entry [backup of quartz.properties exist?]
+2018/01/02 10:38:37 - ConfigureRepositoryJob - Starting entry [backup of hibernate-settings.xml exists?]
+2018/01/02 10:38:37 - ConfigureRepositoryJob - Starting entry [backup of hibernate.cfg.xml exists?]
+2018/01/02 10:38:37 - ConfigureRepositoryJob - Starting entry [backup of repository.xml exists?]
+2018/01/02 10:38:37 - ConfigureRepositoryJob - Starting entry [backup of context.xml exists?]
+2018/01/02 10:38:37 - ConfigureRepositoryJob - Starting entry [backup of applicationContext-spring-security-hibernate.properties exists?]
+2018/01/02 10:38:37 - ConfigureRepositoryJob - Starting entry [Delete context.xml cache]
+2018/01/02 10:38:37 - backup of quartz.properties exist? - File [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/tomcat/conf/Catalina/localhost/pentaho.xml] already deleted.
+2018/01/02 10:38:37 - ConfigureRepositoryJob - Starting entry [Delete jackrabbit cache]
+2018/01/02 10:38:37 - backup of quartz.properties exist? - Folder [C:/PentahoArchiveBuilds/ba_server/pentaho-server-ee-8.0.0.0-28/pentaho-server/pentaho-solutions/system/jackrabbit/repository] already deleted.
+2018/01/02 10:38:37 - ConfigureRepositoryJob - Starting entry [Move audit_sql.xml]
+2018/01/02 10:38:37 - backup of quartz.properties exist? - Starting ...
+2018/01/02 10:38:37 - backup of quartz.properties exist? - Processing row source File/folder source : [${var_auditSQL}] ... destination file/folder : [${var_SolutionsDirectory}/system]... wildcard : [null]
+2018/01/02 10:38:37 - ConfigureRepositoryJob - Starting entry [ChangeFiles]
+2018/01/02 10:38:37 - ChangeFiles - Loading transformation from XML file [file:///C:/Users/cmorehouse/Documents/RepositoryConfigurationProject/RepositoryConfigurationUtility_6.x.2.1/engine/transformations/ChangeFiles.ktr]
+2018/01/02 10:38:37 - ChangeFiles - Dispatching started for transformation [ChangeFiles]
+2018/01/02 10:38:37 - Get rows from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Create context.xml.0 - Optimization level set to 9.
+2018/01/02 10:38:37 - Create hibernate-settings.xml.0 - Optimization level set to 9.
+2018/01/02 10:38:37 - Create context.xml.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Create hibernate.cfg.xml.0 - Optimization level set to 9.
+2018/01/02 10:38:37 - Create hibernate-settings.xml.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Create hibernate.cfg.xml.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Create repository.xml.0 - Optimization level set to 9.
+2018/01/02 10:38:37 - Create repository.xml.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Write repository.xml.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Create quartz.properties.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Write hibernate-settings.xml.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Write context.xml.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Write hibernate.cfg.xml.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Add constants.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - ApplicationContextUrl.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - Block this step until steps finish.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:37 - ApplicationContextUsername.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:38 - Block this step until steps finish 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:38 - ApplicationContextPassword.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Starting entry [Copy edited applicationContext-spring-security-hibernate.properties]
+2018/01/02 10:38:38 - backup of quartz.properties exist? - Starting ...
+2018/01/02 10:38:38 - backup of quartz.properties exist? - Processing row source File/folder source : [${var_applicationContextSpringSecurityHibernate}] ... destination file/folder : [${var_SolutionsDirectory}/system]... wildcard : [null]
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [Copy edited applicationContext-spring-security-hibernate.properties] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [ChangeFiles] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [Move audit_sql.xml] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [Delete jackrabbit cache] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [Delete context.xml cache] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [backup of applicationContext-spring-security-hibernate.properties exists?] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [backup of context.xml exists?] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [backup of repository.xml exists?] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [backup of hibernate.cfg.xml exists?] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [backup of hibernate-settings.xml exists?] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [backup of quartz.properties exist?] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Finished job entry [ReadFiles] (result=[true])
+2018/01/02 10:38:38 - ConfigureRepositoryJob - Job execution finished
+2018/01/02 10:38:38 - Kitchen - Finished!
+2018/01/02 10:38:38 - Kitchen - Start=2018/01/02 10:38:36.667, Stop=2018/01/02 10:38:38.122
+2018/01/02 10:38:38 - Kitchen - Processing ended after 1 seconds.
